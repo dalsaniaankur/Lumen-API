@@ -19,3 +19,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+## How to use Lumen API 
+
+Composer Install
+
+Or
+
+* https://www.youtube.com/watch?v=SuafvdjfHwg	 
+---------------------------------------------------------------------
+1. Install lumen
+	>composer create-project laravel/lumen lumen1 5.4 --prefer-dist
+
+2. Install flipbox/lumen-generator 	
+	>https://packagist.org/packages/flipbox/lumen-generator
+
+3. Fire command
+	>php artisan key:generate
+
+4. Install dusterio/lumen-passport
+    >https://packagist.org/packages/dusterio/lumen-passport
+
+5. composer require barryvdh/laravel-cors
+	>https://packagist.org/packages/barryvdh/laravel-cors
